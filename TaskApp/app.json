@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "TaskApp",
+    "slug": "TaskApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.saitejashashank.TaskApp"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56e5fe41-056d-4749-81a5-e761f54f4d8f"
+      }
+    }
+  }
+}
